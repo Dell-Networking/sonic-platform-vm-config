@@ -2,9 +2,11 @@ Source: sonic-platform-vm-config
 Section: net
 Priority: optional
 Maintainer: Dell <support@dell.com>
-
 Build-Depends: debhelper (>= 9), autotools-dev, dh-exec
-Standards-Version: 1.0.1
+Standards-Version: 3.9.3
+Vcs-Browser: https://github.com/dell-networking/sonic-platform-vm-config
+Vcs-Git: https://github.com/dell-networking/sonic-platform-vm-config.git
+
 Package: sonic-platform-vm-config
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
