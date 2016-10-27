@@ -1,13 +1,12 @@
-# sonic-platform-vm-config
-This repo holds the initiation configuration files for the SONiC VM platform.
+sonic-platform-vm-config
+========================
+This repo contains the initiation configuration files for the SONiC virtual machine (VM) platform. The SONiC system reads the configuration files to determine how to initialize physical and virtual interfaces, and other devices.
 
-## Description
-The sonic system will read the configuration files to determine how to initialize the physical and virtual interfaces and other devices.
-
-Building
+Build
 --------
-Please see the instructions in the sonic-nas-manifest repo for more details on the common build tools.  [Sonic-nas-manifest](https://www.github.com/Azure/sonic-nas-manifest)
+See [sonic-nas-manifest](https://www.github.com/Azure/sonic-nas-manifest) for more information on common build tools.
 
-sonic_build -- clean binary
+### Build command
+    sonic_build -- clean binary
 
 (c) Dell 2016
